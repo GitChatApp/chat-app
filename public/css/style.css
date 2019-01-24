@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body { 
+  background-color: rgb(231, 234, 237);
+  font-family: sans-serif;
+}
+
+.home {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.home img {
+  display: block;
+  margin: 0 auto;
+}
+
+.home a {
+  color: rgb(65, 210, 145);
+  font-size: 20px;
+}
+
+.chatroom {
+  background-color: rgb(65, 210, 145);
+  border-radius: 5px;
+  display: grid;
+  margin: 20px auto;
+  max-width: 900px;
+  position: relative;
+  width: 90%;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-areas: "header header"
+                       "chatroom users"
+                       "form form";
+}
+
+.column {
+  grid-template-columns: 3fr 0fr;
+}
+
+.chatroom h1 {
+  color: white;
+  font-size: 20px;
+  grid-area: header;
+  padding: 20px 10px 20px 10px;
+}
+
+.chatroom img {
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.chatroom form {
+  font-size: 20px;
+  grid-area: form;
+  padding: 10px;
+  text-align: center;
+}
+
+.chatroom form input {
+  border: 0; 
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px; 
+  width: 70%;
+}
+
+.chatroom form button { 
+  background: lightgrey; 
+  border: 0;
+  border-radius: 5px;
+  color: rgb(126, 126, 126);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  width: 20%; 
+}
+
+.chatroom .messagebox { 
+  background-color: white;
+  border-right: 10px solid #eee;
+  grid-area: chatroom;
+  height: 500px;
+  margin-left: 10px;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.chatroom .border {
+  border-right: 10px solid rgb(65, 210, 145);
+}
+
+.chatroom .messages {
+  list-style-type: none;
+}
+
+.chatroom .messages li { 
+  padding: 10px 0px;
+}
+
+.chatroom .userlist {
+  background-color: white;
+  grid-area: users;
+  height: 500px;
+  margin-right: 10px;
+  overflow: scroll;
+  padding: 10px;
+  min-width: 150px;
+}
+
+.chatroom .userlist h2 {
+  font-size: 16px;
+  padding: 5px 0px;
+}
+
+.chatroom .users li { 
+  padding: 5px 0px;
+}
+
+.error {
+  text-align: center;
+}
+
+.error h3 {
+  color: rgb(126, 126, 126);
+  display: block;
+  font-size: 24px;
+  margin: 50px 0px 22px 0px;
+}
+
+.error img {
+  display: block;
+  margin: 0 auto;
+}
+
+.error a {
+  color: rgb(65, 210, 145);
+  font-size: 20px;
+}

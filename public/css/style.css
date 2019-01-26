@@ -121,6 +121,10 @@ body {
   padding: 5px 0px;
 }
 
+.chatroom .users {
+  list-style-type: none;
+}
+
 .chatroom .users li { 
   padding: 5px 0px;
 }

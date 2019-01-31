@@ -1,5 +1,5 @@
 {
-  "name": "github-chat",
+  "name": "chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksmith10309/github-chat.git"
+    "url": "git+https://github.com/GitChatApp/chat-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ksmith10309/github-chat/issues"
+    "url": "https://github.com/GitChatApp/chat-app/issues"
   },
-  "homepage": "https://github.com/ksmith10309/github-chat#readme",
+  "homepage": "https://github.com/GitChatApp/chat-app#readme",
   "dependencies": {
     "babel-env": "^2.4.1",
     "babel-register": "^6.26.0",
